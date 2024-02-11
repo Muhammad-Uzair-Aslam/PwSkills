@@ -4,6 +4,7 @@ import Link from 'next/link'
 import React,{useState} from 'react'
 export default function Navbar() {
     const [searchBar,setSearchBar]=useState(false);
+    const [navbarOpen,setNavbarOpen]=useState(false);
     return (
         <div className=" shadow-md md:shadow-xl shadow-slate-100 pb-2">
             <div className=" flex flex-row items-center md:h-24 h-16">
@@ -33,7 +34,7 @@ export default function Navbar() {
                         </svg>
                         </button>
 
-                    <button className="mx-2 text-3xl">&#8801;</button>
+                    <button onClick={()=>setNavbarOpen(!navbarOpen)} className="mx-2 text-3xl">&#8801;</button>
                 </div>
             </div>
             <div className="hidden md:block mt-3">
