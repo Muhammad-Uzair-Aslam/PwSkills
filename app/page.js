@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./(components)/navbar/navbar";
 import Typical from 'react-typical'
 import Typewriter from "./(components)/typewriter/typewriter";
+import SimpleCard from "./(components)/simpleCard/simpleCard";
 
 export default function Home() {
   return (
@@ -27,6 +28,12 @@ export default function Home() {
         <div className="mx-auto">
           <Image className="mx-auto w-[90%] " src="/hero-bg.png" width={500} height={500} />
         </div>
+      </div>
+      <div className="mx-4 md:ml-20 md:mr-20 space-y-5 md:space-y-0 my-10 grid  md:space-x-10 grid-col-1 md:grid-cols-2 lg:grid-cols-4">
+      <SimpleCard src={"/statistics1.png"} width={50} height={50} number={"55%"} text="Average Salary Hike"/>
+      <SimpleCard src={"/statistics2.png"} width={50} height={50} number={"600+"} text="Different Courses"/>
+      <SimpleCard src={"/statistics3.png"} width={50} height={50} number={"12000+"} text="Career Transitions"/>
+      <SimpleCard src={"/business-bag.svg"} width={50} height={50} number={"400+"} text="Hiring Partners" bg="#FFFF66" br="7px"/>
       </div>
     </>
   );
