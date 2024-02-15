@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function SimpleCard(props) {
   return (
-    <div className='flex flex-row px-4 py-6 bg-white shadow-md md:shadow-lg shadow-gray-400'>
+    <div className='flex flex-row px-4 py-6 bg-white shadow-md md:shadow-lg shadow-gray-400 my-5 md:my-5 md:mr-5'>
       <div style={{width:props.width,borderRadius:props.br,backgroundColor:props.bg}}>
         <Image src={props.src} width={props.width} height={props.height}/>
       </div>

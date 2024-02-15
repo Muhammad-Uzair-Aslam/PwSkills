@@ -1,5 +1,4 @@
 "use client"
-import Link from 'next/link';
 import Typical from "react-typical"
 const Typewriter = () => {
     return (
