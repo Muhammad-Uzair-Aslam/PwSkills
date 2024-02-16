@@ -4,6 +4,7 @@ import Typical from 'react-typical'
 import Typewriter from "./(components)/typewriter/typewriter";
 import SimpleCard from "./(components)/simpleCard/simpleCard";
 import Homepage from "./(components)/homepage/homepage";
+import CategoriesCard from "./(components)/categoriesCard/categoriesCard";
 
 export default function Home() {
   return (
@@ -36,7 +37,13 @@ export default function Home() {
             />
           </svg>
         </button>} lineHeight={1.3} headingStyle={"text-xl md:text-5xl"} startText="Online Degree" style="flex-col" afterBR="Meets The Expectation" src="/homepage-degree.svg" heading="Where " paragraph="At PW Skills, we are Revolutionising your journey of stepping your first foot into your Career through our college programs with partnering up with Top Tier Colleges" Parastyle="md:text-xl text-lg text-gray-900" typewriter="Learning" />
-
+      </div>
+      <div className="my-5 mx-4 md:mx-20">
+        <h1 className="font-bold md:text-3xl text-xl ">Explore Our Categories</h1>
+        <p className="mt-2">Discover Your Passion</p>
+        <div className="">
+          <CategoriesCard/>
+        </div>
       </div>
     </>
   );
