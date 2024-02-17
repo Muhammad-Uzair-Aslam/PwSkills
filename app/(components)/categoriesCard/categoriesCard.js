@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function CategoriesCard() {
@@ -9,7 +10,7 @@ export default function CategoriesCard() {
                     <p>Become expert at drawing intelligence from data and get...</p>
                 </div>
                 <div>
-                    
+                    <Image src={"/ai.svg"} width={50} height={50}/>
                 </div>
 
             </div>
