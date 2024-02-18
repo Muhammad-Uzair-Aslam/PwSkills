@@ -42,7 +42,15 @@ export default function Home() {
         <h1 className="font-bold md:text-3xl text-xl ">Explore Our Categories</h1>
         <p className="mt-2">Discover Your Passion</p>
         <div className="">
+          <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gri">
           <CategoriesCard/>
+          <CategoriesCard/>
+          <CategoriesCard/>
+          <CategoriesCard/>
+          <CategoriesCard/>
+          <CategoriesCard/>
+          </div>
+          
         </div>
       </div>
     </>
