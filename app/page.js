@@ -43,8 +43,8 @@ export default function Home() {
         <p className="mt-2">Discover Your Passion</p>
         <div className="">
           <div className="grid gap-5 mt-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gri">
-          <CategoriesCard/>
-          <CategoriesCard/>
+          <CategoriesCard text="Become expert at drawing intelligence from data and get..." heading="Data Science & Analytics" src="/ai.svg"/>
+          <CategoriesCard text="Upskill in-demand software & technology skills to attain..." heading="Software Development Courses" src="/sd.svg"/>
           <CategoriesCard/>
           <CategoriesCard/>
           <CategoriesCard/>

@@ -1,16 +1,16 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function CategoriesCard() {
+export default function CategoriesCard(props) {
     return (
         <div className='flex flex-col rounded-lg shadow-lg group'>
             <div className=' p-2 md:p-5 flex flex-row rounded-t-lg justify-between bg-slate-50 group-hover:bg-gradient-to-r from-slate-50 to-purple-200'>
-                <div>
-                    <h1 className='text-md font-bold'>Data Science & Analytics</h1>
-                    <p className='text-sm pt-3'>Become expert at drawing intelligence from data and get...</p>
+                <div className='w-3/4'>
+                    <h1 className='text-md font-bold'>{props.heading}</h1>
+                    <p className='text-sm pt-3'>{props.text}</p>
                 </div>
-                <div className='flex justify-center items-center'>
-                    <Image src={"/ai.svg"} width={80} height={80} />
+                <div className=' w-1/4 flex justify-center items-center'>
+                    <Image src={props.src} width={70} height={70} />
                 </div>
 
             </div>
@@ -20,7 +20,7 @@ export default function CategoriesCard() {
                 </div>
                 <div className='flex justify-center items-center '>
                     <svg
-                        className=" h-6 w-6  rounded-full bg-orange-200 text-white"
+                        className=" h-6 w-6  rounded-full bg-orange-200 group-hover:bg-orange-600 text-white"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
