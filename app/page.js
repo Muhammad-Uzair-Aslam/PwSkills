@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import Navbar from "./(components)/navbar/navbar";
 import Typical from 'react-typical'
@@ -5,6 +6,7 @@ import Typewriter from "./(components)/typewriter/typewriter";
 import SimpleCard from "./(components)/simpleCard/simpleCard";
 import Homepage from "./(components)/homepage/homepage";
 import CategoriesCard from "./(components)/categoriesCard/categoriesCard";
+import ImageSlider from "./(components)/ImageSlider/ImageSlider";
 
 export default function Home() {
   return (
@@ -42,7 +44,7 @@ export default function Home() {
         <h1 className="font-bold md:text-3xl text-xl ">Explore Our Categories</h1>
         <p className="mt-2">Discover Your Passion</p>
         <div className="">
-          <div className="grid gap-5 mt-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gri">
+          <div className="grid gap-5 mt-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
           <CategoriesCard text="Become expert at drawing intelligence from data and get..." heading="Data Science & Analytics" src="/ai.svg"/>
           <CategoriesCard text="Upskill in-demand software & technology skills to attain..." heading="Software Development Courses" src="/sd.svg"/>
           <CategoriesCard text="Up-skill yourself with relevant courses to become job ready in..." heading="Banking & Finance" src="/banking.svg"/>
@@ -52,6 +54,11 @@ export default function Home() {
           </div>
           
         </div>
+      </div>
+      <div className="mt-20 bg-slate-100 pt-20 px-5 md:px-20">
+        <h1 className="text-xl md:text-3xl  font-bold">Our Courses</h1>
+        <h1 className="text-xl pt-4 md:text-2xl md:text-red-500 font-bold">Data Science & Analytics</h1>
+        <ImageSlider/>
       </div>
     </>
   );
