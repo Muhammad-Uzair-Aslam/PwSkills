@@ -45,10 +45,10 @@ export default function Home() {
           <div className="grid gap-5 mt-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gri">
           <CategoriesCard text="Become expert at drawing intelligence from data and get..." heading="Data Science & Analytics" src="/ai.svg"/>
           <CategoriesCard text="Upskill in-demand software & technology skills to attain..." heading="Software Development Courses" src="/sd.svg"/>
-          <CategoriesCard/>
-          <CategoriesCard/>
-          <CategoriesCard/>
-          <CategoriesCard/>
+          <CategoriesCard text="Up-skill yourself with relevant courses to become job ready in..." heading="Banking & Finance" src="/banking.svg"/>
+          <CategoriesCard text="Build strong coding foundations for a high-paying technology career" heading="programming Courses" src="/programming.svg"/>
+          <CategoriesCard text="Explore the vast area of new categories under business..." heading="Business Technology" src="/business.svg"/>
+          <CategoriesCard text="Explore the vast sectors of healthcare by joining our degree..." heading="SW School of Healthcare" src="/health.svg"/>
           </div>
           
         </div>
