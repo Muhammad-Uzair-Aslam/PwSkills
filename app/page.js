@@ -21,6 +21,7 @@ export default function Home() {
         <SimpleCard src={"/statistics3.png"} width={50} height={50} number={"12000+"} text="Career Transitions" />
         <SimpleCard src={"/business-bag.svg"} width={50} height={50} number={"400+"} text="Hiring Partners" bg="#FFFF66" br="7px" />
       </div>
+      
       <div className="md:my-10 md:py-20 bg-gray-100">
         <Homepage img="md:mt-20" btn={<button className="px-6 py-2 text-orange-600 rounded-lg border-1 border border-orange-600">Talk to counsellor
           <svg style={{float:"inline-end"
