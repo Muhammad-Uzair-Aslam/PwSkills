@@ -23,13 +23,13 @@ const Slider = () => {
 
   return (
     <>
-    
     <div className="relative w-full mt-10 mb-10 ">
       <div className="overflow-hidden">
         <div
           className="flex transition-transform duration-300 "
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
+          
           {cards.map((card) => (
             <div
               key={card.id}
