@@ -56,7 +56,7 @@ export default function Home() {
           
         </div>
       </div>
-      <div className="mt-20 bg-slate-100 pt-20 px-5 md:px-20">
+      <div className="mt-20 h-full bg-slate-100 pt-20 px-5 md:px-20">
         <h1 className="text-xl md:text-3xl  font-bold">Our Courses</h1>
         <h1 className="text-xl pt-4 md:text-2xl md:text-red-500 font-bold">Data Science & Analytics</h1>
         <ImageSlider/>

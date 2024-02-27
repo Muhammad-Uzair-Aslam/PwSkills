@@ -22,7 +22,8 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative w-full mt-10">
+    <>
+    <div className="relative w-full mt-10 mb-10 ">
       <div className="overflow-hidden">
         <div
           className="flex transition-transform duration-300 "
@@ -31,48 +32,54 @@ const Slider = () => {
           {cards.map((card) => (
             <div
               key={card.id}
-              className=" mx-auto w-full bg-white lg:w-[380px] rounded-lg flex-shrink-0 lg:mx-2"
+              // style={{height:"450px"}}
+              className=" mx-auto w-full relative lg:h-[450px] bg-white lg:w-[380px] rounded-lg flex-shrink-0 lg:mx-2 "
             >
               <div className=''>
               <Image className='w-full rounded-t-lg' src={card.url} width={400} height={400}/>
               </div>
-              <div className="p-6 md:p-3 text-center lg:text-left font-semibold text-gray-800 text-lg">
+              <div className="p-6 md:p-3 text-left font-semibold text-gray-800 text-lg">
                 {card.title}
               </div>
-              <div className="px-6 pb-5 text-center md:px-3 lg:text-left text-sm text-gray-800">
+              <div className="px-6 pb-5 md:px-3 text-left text-sm text-gray-800">
                 {card.content}
               </div>
               <div>
-                <h1 className="p-3 font-semibold text-sm text-gray-800">
+                <h1 className="p-3 font-semibold text-sm text-gray-800 lg:absolute lg:bottom-16">
                   Registration Started
                 </h1>
               </div>
-              <div className='flex gap-2 w-full'>
-                <div className='rounded-lg w-1/2 bg-orange-700 mx-3 text-center hover:bg-orange-800 text-white'>
+              <div className='flex gap-2 w-full mb-4 lg:mb-0  lg:absolute lg:bottom-5'>
+                <div className='rounded-lg w-1/2 bg-orange-700 mx-1 text-center hover:bg-orange-800 text-white'>
                   <button className='px-3 py-2'>Explore</button>
                 </div>
-                <div className='w-1/2 rounded-lg border border-1 mx-3 text-center border-orange-700 text-orange-700  '>
+                <div className='w-1/2 rounded-lg border border-1 mx-1 text-center border-orange-700 text-orange-700  '>
                   <button className='px-3 py-2'>Buy Now</button>
                 </div>
               </div>
+              
             </div>
           ))}
         </div>
       </div>
-
+      
+      </div>
+      <div className='flex justify-center items-center'>
       <button
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded"
+        className="w-10 h-10 mx-1 font-bold text-xl relative  transform -translate-y-1/2 bg-white text-orange-600 p-2 rounded-full"
         onClick={prevSlide}
       >
-        Prev
+        &lt;
       </button>
       <button
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded"
+        className="w-10 h-10 mx-1 text-xl font-bold relative transform -translate-y-1/2 bg-white text-orange-600 p-2 rounded-full"
         onClick={nextSlide}
       >
-        Next
+        &gt;
       </button>
-    </div>
+      </div>
+      <hr /><hr />
+      </>
   );
 };
 
