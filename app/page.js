@@ -7,6 +7,7 @@ import SimpleCard from "./(components)/simpleCard/simpleCard";
 import Homepage from "./(components)/homepage/homepage";
 import CategoriesCard from "./(components)/categoriesCard/categoriesCard";
 import ImageSlider from "./(components)/ImageSlider/ImageSlider";
+import ImageSlider2 from "./(components)/ImageSlider2/ImageSlider2";
 
 export default function Home() {
   return (
@@ -58,8 +59,10 @@ export default function Home() {
       </div>
       <div className="mt-20 h-full bg-slate-100 pt-20 px-5 md:px-20">
         <h1 className="text-xl md:text-3xl  font-bold">Our Courses</h1>
-        <h1 className="text-xl pt-4 md:text-2xl md:text-red-500 font-bold">Data Science & Analytics</h1>
+        <h1 className="text-xl pt-4 md:text-xl md:text-red-500 font-semibold">Data Science & Analytics</h1>
         <ImageSlider/>
+        <h1 className="text-xl mt-3 pt-4 md:text-xl md:text-red-500 font-bold">Software Development Courses</h1>
+        <ImageSlider2/>
       </div>
     </>
   );

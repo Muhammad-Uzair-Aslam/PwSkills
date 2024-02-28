@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 
-const Slider = () => {
+const ImageSlider2 = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const cards = [
     { id: 1, title: 'Data Science With Generative AI Course',url:"/datascience.jpeg",content:"Job Assistance | Ticket to fast-tracked career growth in Data Science" },
@@ -85,4 +85,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default ImageSlider2;
