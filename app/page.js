@@ -9,6 +9,7 @@ import CategoriesCard from "./(components)/categoriesCard/categoriesCard";
 import ImageSlider from "./(components)/ImageSlider/ImageSlider";
 import ImageSlider2 from "./(components)/ImageSlider2/ImageSlider2";
 
+
 export default function Home() {
   return (
     <>
