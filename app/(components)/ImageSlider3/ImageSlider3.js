@@ -5,12 +5,12 @@ import React, { useState } from 'react';
 const ImageSlider3 = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const cards = [
-    { id: 1, title: 'Data Science With Generative AI Course',url:"/datascience.jpeg",content:"Job Assistance | Ticket to fast-tracked career growth in Data Science" },
-    { id: 2, title: 'Data Analytics Course',url:"/dataAnalytics.jpeg",content:"Job Assistance | Gain Data Analytics Expertise" },
-    { id: 3, title: 'Data Analytics Course Hinglish',url:"/Hinglish.jpeg",content:"Job Assistance | Gain Data Analytics Expertise" },
-    { id: 4, title: 'Mastering the Power of Artificial Intelligence Course',url:"/artificialIntelligence.jpeg",content:"Learn Generative AI fundamentals and Applications. Ideal for AI enthusiasts" },
-    { id: 5, title: 'Data Science with Generative AI Course-Hinglish',url:"/generativeAI.jpeg",content:"Job Assistance | Ticket to fast-tracked career growth in Data Science" },
-    { id: 2, title: 'Data Analytics Course',url:"/dataAnalytics.jpeg",content:"Job Assistance | Gain Data Analytics Expertise" },
+    { id: 1, title: 'Full Stack Development Course', url: "/fullstack.png", content: "Job Assistance| Gain Full Stack Development Expertise" },
+    { id: 2, title: 'DevOps and Cloud Computing Course', url: "/devops.png", content: "Master the Art of streamlining softwaer development with out DevOps Course" },
+    { id: 3, title: 'UI/UX Design Course', url: "/UI.png", content: "Job Assistance | Unlock the secrets of seamless user experience with our UI/UX course" },
+    { id: 4, title: ' Full Stack Development Course- Hinglish', url: "/fullstackk.png", content: "Job Assistance| Gain Full Stack Development Expertise" },
+    { id: 5, title: 'Full Stack Web Development Program (offline)', url: "/offline.png", content: "Job Assistance |  Gain Full Stack Development Expertise" },
+    { id: 6, title: 'UI/UX Design Course', url: "/UI.png", content: "Job Assistance | Unlock the secrets of seamless user experience with our UI/UX course" },
   ];
 
   const prevSlide = () => {

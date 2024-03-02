@@ -4,11 +4,11 @@ import React, { useState } from 'react';
 const ImageSlider2 = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const cards = [
-        { id: 1, title: 'Data Science With Generative AI Course', url: "/1.png", content: "Job Assistance | Ticket to fast-tracked career growth in Data Science" },
-        { id: 2, title: 'Data Analytics Course', url: "/2.png", content: "Job Assistance | Gain Data Analytics Expertise" },
-        { id: 3, title: 'Data Analytics Course Hinglish', url: "/3.png", content: "Job Assistance | Gain Data Analytics Expertise" },
-        { id: 4, title: 'Mastering the Power of Artificial Intelligence Course', url: "/4.png", content: "Learn Generative AI fundamentals and Applications. Ideal for AI enthusiasts" },
-        { id: 5, title: 'Data Science with Generative AI Course-Hinglish', url: "/5.png", content: "Job Assistance | Ticket to fast-tracked career growth in Data Science" },
+        { id: 1, title: 'Full Stack Development Course', url: "/1.png", content: "Job Assistance| Gain Full Stack Development Expertise" },
+        { id: 2, title: 'DevOps and Cloud Computing Course', url: "/2.png", content: "Master the Art of streamlining softwaer development with out DevOps Course" },
+        { id: 3, title: 'UI/UX Design Course', url: "/3.png", content: "Job Assistance | Unlock the secrets of seamless user experience with our UI/UX course" },
+        { id: 4, title: ' Full Stack Development Course- Hinglish', url: "/4.png", content: "Job Assistance| Gain Full Stack Development Expertise" },
+        { id: 5, title: 'Full Stack Web Development Program (offline)', url: "/5.png", content: "Job Assistance |  Gain Full Stack Development Expertise" },
         { id: 6, title: 'Data Analytics Course', url: "/6.png", content: "Job Assistance | Gain Data Analytics Expertise" },
         { id: 7, title: 'Data Analytics Course', url: "/7.jpeg", content: "Job Assistance | Gain Data Analytics Expertise" },
         { id: 8, title: 'Data Analytics Course', url: "/8.jpeg", content: "Job Assistance | Gain Data Analytics Expertise" },
