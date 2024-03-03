@@ -4,15 +4,15 @@ import React, { useState } from 'react';
 const ImageSlider2 = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const cards = [
-        { id: 1, title: 'Full Stack Development Course', url: "/1.png", content: "Job Assistance| Gain Full Stack Development Expertise" },
-        { id: 2, title: 'DevOps and Cloud Computing Course', url: "/2.png", content: "Master the Art of streamlining softwaer development with out DevOps Course" },
-        { id: 3, title: 'UI/UX Design Course', url: "/3.png", content: "Job Assistance | Unlock the secrets of seamless user experience with our UI/UX course" },
-        { id: 4, title: ' Full Stack Development Course- Hinglish', url: "/4.png", content: "Job Assistance| Gain Full Stack Development Expertise" },
-        { id: 5, title: 'Full Stack Web Development Program (offline)', url: "/5.png", content: "Job Assistance |  Gain Full Stack Development Expertise" },
-        { id: 6, title: 'Data Analytics Course', url: "/6.png", content: "Job Assistance | Gain Data Analytics Expertise" },
-        { id: 7, title: 'Data Analytics Course', url: "/7.jpeg", content: "Job Assistance | Gain Data Analytics Expertise" },
-        { id: 8, title: 'Data Analytics Course', url: "/8.jpeg", content: "Job Assistance | Gain Data Analytics Expertise" },
-        { id: 9, title: 'Data Analytics Course Hinglish', url: "/3.png", content: "Job Assistance | Gain Data Analytics Expertise" },
+        { id: 1, title: 'Comprehensive Financial Modeling Course', url: "/1.png", content: "Master financial skills for diverse investment Equity Analysis" },
+        { id: 2, title: 'Post Graguate Certification in Banking, Financial Services & Insurance', url: "/2.png", content: "Program for individual who wish to kickstart their career in the Private Banking Industry" },
+        { id: 3, title: 'Certification Program in Finance Accounting & Taxation', url: "/3.png", content: "Master finance with PWC expert-led training" },
+        { id: 4, title: 'TallyPrime Basic with GST Essentials (Tally Certification)', url: "/4.png", content: "Transformative TallyPrime Basic with GST course unlocks accounting career prospects" },
+        { id: 5, title: 'TallyPrime Basic with GST Accounting (Tally Certification)', url: "/5.png", content: "Empowering journey into bookkeeping essentials with practical TallyPrime apllications" },
+        { id: 6, title: 'Financial Mastery Analysis & modeling', url: "/6.png", content: "Master finance skills: financial modeling, analysis,DCF valuation and more in our course" },
+        { id: 7, title: 'Sales & Relationship Management pre-Placement Drive', url: "/7.jpeg", content: "join our pre-placement drive for Muthout Fincorp opportunities and interviews" },
+        { id: 8, title: 'Yes Bank Yes Force Pre-Placement Drive', url: "/8.jpeg", content: "Join Yes Bank's pre-placement drive as a Sales Officer!"},
+        { id: 9, title: 'Certification Program in Finance Accounting & Taxation', url: "/3.png", content: "Master finance with PWC expert-led training" },
 
     ];
     const prevSlide = () => {
