@@ -8,6 +8,7 @@ import Homepage from "./(components)/homepage/homepage";
 import CategoriesCard from "./(components)/categoriesCard/categoriesCard";
 import ImageSlider from "./(components)/ImageSlider/ImageSlider";
 import ImageSlider2 from "./(components)/ImageSlider2/ImageSlider2";
+import ImageSlider3 from "./(components)/ImageSlider3/ImageSlider3";
 
 
 export default function Home() {
@@ -63,6 +64,8 @@ export default function Home() {
         <h1 className="text-xl pt-4 md:text-xl md:text-red-500 font-semibold">Data Science & Analytics</h1>
         <ImageSlider/>
         <h1 className="text-xl mt-3 pt-4 md:text-xl md:text-red-500 font-bold">Software Development Courses</h1>
+        <ImageSlider3/>
+        {/* <h1 className="text-xl mt-3 pt-4 md:text-xl md:text-red-500 font-bold">Banking & Finance</h1> */}
         <ImageSlider2/>
       </div>
     </>
