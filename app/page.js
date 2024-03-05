@@ -56,16 +56,16 @@ export default function Home() {
           <CategoriesCard text="Explore the vast area of new categories under business..." heading="Business Technology" src="/business.svg"/>
           <CategoriesCard text="Explore the vast sectors of healthcare by joining our degree..." heading="SW School of Healthcare" src="/health.svg"/>
           </div>
-          
         </div>
       </div>
+
       <div className="mt-20 h-full bg-slate-100 pt-20 px-5 md:px-20">
-        <h1 className="text-xl md:text-3xl  font-bold">Our Courses</h1>
+      <h1 className="text-xl md:text-3xl  font-bold">Our Courses</h1>
         <h1 className="text-xl pt-4 md:text-xl md:text-red-500 font-semibold">Data Science & Analytics</h1>
         <ImageSlider/>
         <h1 className="text-xl mt-3 pt-4 md:text-xl md:text-red-500 font-bold">Software Development Courses</h1>
         <ImageSlider3/>
-        {/* <h1 className="text-xl mt-3 pt-4 md:text-xl md:text-red-500 font-bold">Banking & Finance</h1> */}
+        <h1 className="text-xl mt-3 pt-4 md:text-xl md:text-red-500 font-bold">Banking & Finance</h1>
         <ImageSlider2/>
       </div>
     </>
