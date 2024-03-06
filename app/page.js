@@ -9,6 +9,7 @@ import CategoriesCard from "./(components)/categoriesCard/categoriesCard";
 import ImageSlider from "./(components)/ImageSlider/ImageSlider";
 import ImageSlider2 from "./(components)/ImageSlider2/ImageSlider2";
 import ImageSlider3 from "./(components)/ImageSlider3/ImageSlider3";
+import Footer from "./(components)/footer/footer";
 
 
 export default function Home() {
@@ -68,6 +69,7 @@ export default function Home() {
         <h1 className="text-xl mt-3 pt-4 md:text-xl md:text-red-500 font-bold">Banking & Finance</h1>
         <ImageSlider2/>
       </div>
+      <Footer/>
     </>
   );
 }
