@@ -97,7 +97,6 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-
         <div className=" md:px-5 py-2 ">
           <h1 className="text-xl font-semibold">Company</h1>
           <div className="my-2 bg-orange-600 w-[80%] md:w-[85%] h-1 rounded-full"></div>
