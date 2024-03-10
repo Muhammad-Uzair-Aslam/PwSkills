@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Navbar from "./(components)/navbar/navbar";
-import Typical from "react-typical";
-import Typewriter from "./(components)/typewriter/typewriter";
 import SimpleCard from "./(components)/simpleCard/simpleCard";
 import Homepage from "./(components)/homepage/homepage";
 import CategoriesCard from "./(components)/categoriesCard/categoriesCard";
@@ -9,9 +7,11 @@ import ImageSlider from "./(components)/ImageSlider/ImageSlider";
 import ImageSlider2 from "./(components)/ImageSlider2/ImageSlider2";
 import ImageSlider3 from "./(components)/ImageSlider3/ImageSlider3";
 import Footer from "./(components)/footer/footer";
+import TypewriterEffect from "./(components)/typewriterEffect/typewriterEffect";
 export default function Home() {
   return (
     <>
+      
       <Navbar />
       <Homepage
         lineHeight={1.8}
@@ -29,7 +29,7 @@ export default function Home() {
             className="inline-flex items-center"
           >
             &lt;
-            <Typewriter />
+            <TypewriterEffect />
             &gt;
           </span>
         }
