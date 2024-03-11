@@ -23,7 +23,7 @@ export default function Homepage(props) {
       
         </div>
         <div className="mx-auto">
-          <Image className={`mx-auto w-[90%] ${props.img}`} src={props.src} width={500} height={500} />
+          <Image className={`mx-auto w-[90%] ${props.img}`} src={props.src} width={500} height={500} alt='card Image' />
         </div>
       </div>
     

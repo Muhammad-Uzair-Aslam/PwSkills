@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className=" shadow-lg md:shadow-xl shadow-slate-100 pb-2">
             <div className=" flex flex-row items-center md:h-24 h-16">
                 <div className=" flex  w-[15%] items-center">
-                    <Image className="rounded-full md:ml-12 ml-5" src="/pw.jpg" width={40} height={30} />
+                    <Image className="rounded-full md:ml-12 ml-5" src="/pw.jpg" width={40} height={30} alt='pw skills logo'/>
                     <div className="flex flex-col">
                         <div className="flex flex-row">
                             <p className="ml-5 w-1.5 h-1.5 rounded-full bg-orange-500"></p>
@@ -73,7 +73,7 @@ export default function Navbar() {
             <div className="hidden md:block mt-3">
                 <div className="">
                     <ul className="flex flex-row justify-around h-16 items-center">
-                        <li className="cursor-pointer flex p-3 bg-slate-100"><Link href="">Courses</Link><Image className="ml-3" src="/down-arrow.svg" width={9} height={9} /></li>
+                        <li className="cursor-pointer flex p-3 bg-slate-100"><Link href="">Courses</Link><Image className="ml-3" src="/down-arrow.svg" width={9} height={9} alt='Image'/></li>
                         <li className="cursor-pointer"> <Link href="">Online Degree</Link></li>
                         <li className="cursor-pointer"> <Link href="">PW Skills Lab</Link></li>
                         <li className="cursor-pointer"> <Link href="">Job Portal</Link></li>

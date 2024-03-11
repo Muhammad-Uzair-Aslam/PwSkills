@@ -10,7 +10,7 @@ export default function CategoriesCard(props) {
                     <p className='text-sm pt-3'>{props.text}</p>
                 </div>
                 <div className=' w-1/4 flex justify-center items-center'>
-                    <Image src={props.src} width={70} height={70} />
+                    <Image src={props.src} width={70} height={70} alt='card Image' />
                 </div>
 
             </div>

@@ -13,6 +13,7 @@ export default function Footer() {
               src="/pw.jpg"
               width={40}
               height={30}
+              alt="pw skills logo"
             />
             <div className="flex flex-col">
               <div className="flex flex-row">

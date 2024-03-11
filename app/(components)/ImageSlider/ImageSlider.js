@@ -37,7 +37,7 @@ const Slider = () => {
               className=" mx-auto w-full relative lg:h-[450px] bg-white lg:w-[380px] rounded-lg flex-shrink-0 lg:mx-2 "
             >
               <div className=''>
-              <Image className='w-full rounded-t-lg' src={card.url} width={400} height={400}/>
+              <Image className='w-full rounded-t-lg' src={card.url} width={400} height={400} alt='card Image'/>
               </div>
               <div className="p-6 md:p-3 text-left font-semibold text-gray-800 text-lg">
                 {card.title}
