@@ -16,7 +16,7 @@ export default function Homepage(props) {
             {props.afterBR}
           </h1>          
           <p className={`mt-4 text-sm text-gray-800 ${props.Parastyle}`}>{props.paragraph}</p>
-          <div className='space-x-3 my-4 mx-auto text-center md:text-left'>
+          <div className='space-x-3 my-4 mx-auto text-center md:text-left flex'>
             <button style={{backgroundColor: "rgb(233, 120, 98)",}} className='rounded-lg px-6 py-2 text-white'>Explore Courses</button> 
             {props.btn}
           </div>
