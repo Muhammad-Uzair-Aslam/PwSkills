@@ -34,28 +34,28 @@ const Slider = () => {
             <div
               key={card.id}
               // style={{height:"450px"}}
-              className=" mx-auto w-full relative lg:h-[450px] bg-white lg:w-[380px] rounded-lg flex-shrink-0 lg:mx-2 "
+              className=" mx-auto w-full relative h-[450px] lg:h-[450px] bg-white lg:w-[380px] rounded-lg flex-shrink-0 lg:mx-2 "
             >
               <div className=''>
-              <Image className='w-full rounded-t-lg' src={card.url} width={400} height={400} alt='card Image'/>
+              <Image className='w-full rounded-t-lg ' src={card.url} width={400} height={400} alt='card Image'/>
               </div>
-              <div className="p-6 md:p-3 text-left font-semibold text-gray-800 text-lg">
+              <div className="p-3 text-left font-semibold text-gray-800 text-lg">
                 {card.title}
               </div>
-              <div className="px-6 pb-5 md:px-3 text-left text-sm text-gray-800">
+              <div className="px-3 text-left text-sm text-gray-800">
                 {card.content}
               </div>
               <div>
-                <h1 className="p-3 font-semibold text-sm text-gray-800 lg:absolute lg:bottom-16">
+                <h1 className="p-3 font-semibold text-sm text-gray-800 absolute bottom-16">
                   Registration Started
                 </h1>
               </div>
-              <div className='flex gap-2 w-full mb-4 lg:mb-0  lg:absolute lg:bottom-5'>
+              <div className='flex gap-2 w-full mb-0 absolute bottom-5'>
                 
-                <div className='w-1/2 rounded-lg border border-1 mx-1 text-center border-orange-700 text-orange-700  '>
+                <div className='ml-3 w-1/2 rounded-lg border border-1 mx-1 text-center border-orange-700 text-orange-700  '>
                   <button className='px-3 py-2'>Explore</button>
                 </div>
-                <div className='rounded-lg w-1/2 bg-orange-700 mx-1 text-center hover:bg-orange-800 text-white'>
+                <div className='mr-3 rounded-lg w-1/2 bg-orange-700 mx-1 text-center hover:bg-orange-800 text-white'>
                   <button className='px-3 py-2'>Buy Now</button>
                 </div>
               </div>
