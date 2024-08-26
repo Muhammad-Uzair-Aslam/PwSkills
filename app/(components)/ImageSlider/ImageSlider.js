@@ -23,6 +23,7 @@ const Slider = () => {
 
   return (
     <>
+    
     <div className="relative w-full mt-10 mb-10 ">
       <div className="overflow-hidden">
         <div
