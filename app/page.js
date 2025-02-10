@@ -66,7 +66,6 @@ export default function Home() {
           br="7px"
         />
       </div>
-
       <div className="md:my-10 md:py-20 bg-gray-100">
         <Homepage
           img="md:mt-20"
@@ -142,7 +141,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="mt-20 h-full bg-slate-100 pt-20 px-5 md:px-20">
         <h1 className="text-xl md:text-3xl  font-bold">Our Courses</h1>
         <h1 className="text-xl pt-4 md:text-xl md:text-red-500 font-semibold">
